@@ -1,0 +1,91 @@
+/* LANDING PAGE */
+body {
+   
+    background-color: #5c5ae4;
+}
+.button {
+    width: 50%;
+    height: 50%;
+    background-color: #4CAF50;
+    border: 2px solid #000;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+/* box text style */
+/* format the buttons and header */
+/* STANDARD FOR PAGE */
+.second-page {
+    width: 75%;
+    height: 75%;
+    background-color: #f5f84a;
+    border: 2px solid #000;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+.room-button {
+    width: 75%;
+    height: 75%;
+    background-color: #4af853;
+    border: 2px solid #000;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+.room-button-box {
+    width: 75%;
+    height: 75%;
+    background-color: #ffffff;
+    border: 2px solid #000;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+.text-box {
+    width: 75%;
+    height: 75%;
+    background-color: #000000;
+    color: red;
+    border: 2px solid #000;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+.room-area {
+    width: 75%;
+    height: 75%;
+    background-color: #f10707;
+    border: 2px solid #000;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+.room-body {
+    width: 75%;
+    height: 75%;
+    background-color: #e268a3;
+    border: 2px solid #000;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+.back-button-box {
+    width: 75%;
+    height: 75%;
+    background-color: #0ff107;
+    border: 2px solid #000;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+/* INSIDE PAGE */
+
+
+
+
+
+
+/* OUTSIDE PAGE */
+/* NOTES PAGE */
+/* LINKS PAGE */
+
+
