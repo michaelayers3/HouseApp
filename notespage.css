@@ -1,4 +1,5 @@
-/* LANDING PAGE */
+/* NOTES PAGE */
+
 html {
     height: fit-content;
 }
@@ -43,3 +44,18 @@ body {
     box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
 }
+
+.notes-main {
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    height: 50%;
+    background-color: #4CAF50;
+    border: 2px solid #000;
+    margin:10px;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
