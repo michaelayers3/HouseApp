@@ -3,14 +3,9 @@
 html {
     height: fit-content;
 }
-body {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    height: 1000px;
-    background-color: #5c5ae4;
-}
-.button {
+
+header {
+    text-align: center;
     width: 50%;
     height: 50%;
     background-color: #4CAF50;
@@ -19,27 +14,58 @@ body {
     border-radius: 10px;
 }
 
+body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: fit-content;
+    background-color: #5c5ae4;
+}
+.button {
+    width: 50%;
+    height: 50%;
+    background-color: #ffffff;
+    border: 2px solid #000;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+.button-box {
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    height: 50%;
+    background-color: #4CAF50;
+    border: 2px solid #000;
+    margin:10px;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
 /* box text style */
 /* format the buttons and header */
 /* STANDARD FOR PAGE */
-.second-page {
+/* .second-page {
     width: 75%;
     height: 75%;
     background-color: #f5f84a;
     border: 2px solid #000;
     box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
-}
-.room-button {
+} */
+/* .room-button {
     width: 75%;
     height: 75%;
     background-color: #4af853;
     border: 2px solid #000;
     box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
-}
+} */
 
-.room-button-box {
+/* .room-button-box {
     width: 75%;
     height: 75%;
     background-color: #ffffff;
@@ -51,14 +77,14 @@ body {
 .room-notes-box {
     justify-content: center;
     width: 75%;
-    /* height: fit-content */
+    height: fit-content
     background-color: #000000;
     color: red;
     border: 2px solid #000;
     box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
-}
-.text-box {
+} */
+/* .text-box {
     width: 75%;
     height: 75%;
     background-color: #000000;
@@ -66,9 +92,9 @@ body {
     border: 2px solid #000;
     box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
-}
+} */
 
-.room-area {
+/* .room-area {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -84,23 +110,23 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     width: 75%;
-    /* height: fit-content; */
+    height: fit-content;
     background-color: #e268a3;
     border: 2px solid #000;
     box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
-}
+} */
 
-.back-button-box {
+/* .back-button-box {
     width: fit-content;
     height: fit-content;
     background-color: #0ff107;
     border: 2px solid #000;
     box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
-}
+} */
 
-.room-area-header {
+/* .room-area-header {
     display: flex;
     justify-content: center;
     width: 75%;
@@ -119,7 +145,7 @@ body {
     margin: 10px;
     box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
-}
+} */
 
 /* INSIDE PAGE */
 
