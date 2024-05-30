@@ -1,5 +1,3 @@
-//ROOM BUTTONS//
-
 function buttonClick(event) {
 
     const buttonId = event.target.id;
@@ -9,6 +7,10 @@ function buttonClick(event) {
         { id: 'room2', url: '/ROOM/roompage.html' },
         { id: 'room3', url: '/ROOM/roompage.html' },
         { id: 'room4', url: '/ROOM/roompage.html' },
+        { id: 'room5', url: '/ROOM/roompage.html' },
+        { id: 'room6', url: '/ROOM/roompage.html' },
+        { id: 'room7', url: '/ROOM/roompage.html' },
+        { id: 'room8', url: '/ROOM/roompage.html' },
     ];
 
     for (let i = 0; i < buttonActions.length; i++) {
@@ -24,11 +26,9 @@ buttons.forEach(button => {
     button.addEventListener('click', buttonClick);
 });
 
-
-//BACK BUTTON//
-
 function backButtonClick () {
    window.location.href = '/LANDING/index.html';
 }
 const backButton = document.querySelector('.back-button-box');
 backButton.addEventListener('click', backButtonClick);
+

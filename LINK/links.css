@@ -46,7 +46,7 @@ body {
     background-color: #5c5ae4;
 }
 
- .room-button {
+ .link-button {
     width: 50%;
     height: 20%;
     background-color: #4af853;
@@ -58,7 +58,7 @@ body {
     border-radius: 10px;
 } 
 
-.room-button-box {
+.link-button-box {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
