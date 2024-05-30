@@ -40,13 +40,16 @@ body {
 }
 
 .picture {
-    justify-content: center;
+        display:flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center;
         width: 100%;
         height: 100%;
         background-color: #486149;
         text-align: center;
         margin:10px;
-        padding: 250px;
+        padding: 0px;
         border: 2px solid #000;
         box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
         border-radius: 10px;
@@ -66,12 +69,11 @@ body {
         border-radius: 10px;
 }
  .quote-box {
-    position:relative;
     width: 100%;
     height: 20%;
     background-color: #564af8;
     text-align: center;
-    margin:10px;
+    /* margin:10px; */
     padding: 10px;
     border: 2px solid #000;
     box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
